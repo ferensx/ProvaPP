@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.trator.ControllerTrator">
+    <children>
+        <Button fx:id="inserirTrator" layoutX="14.0" layoutY="204.0" mnemonicParsing="false" onAction="#CriarTrator" text="NOVO(Criar)">
+
+        </Button>
+        <TextField fx:id="textFieldMarca" layoutX="70.0" layoutY="58.0" promptText="Digite a marca do veiculo">
+
+        </TextField>
+        <TextField fx:id="textFieldModelo" layoutX="70.0" layoutY="98.0" promptText="Digite o modelo">
+
+        </TextField>
+
+
+
+        <TextField fx:id="textFieldano" layoutX="70.0" layoutY="130.0" promptText="Digite o ano">
+
+        </TextField>
+        <TextField fx:id="textFieldValor" layoutX="70.0" layoutY="167.0" promptText="R$00,00">
+
+        </TextField>
+        <Label layoutX="24.0" layoutY="62.0" text="Marca">
+
+        </Label>
+        <Label layoutX="20.0" layoutY="103.0" text="Modelo">
+
+        </Label>
+        <Label layoutX="20.0" layoutY="135.0" text="Ano">
+
+        </Label>
+        <Label layoutX="16.0" layoutY="172.0" text="Valor R$:">
+
+        </Label>
+        <Label layoutX="137.0" layoutY="14.0" text="Trators Nacionais MultiMarcas">
+
+        </Label>
+        <TextArea fx:id="textAreaTrator" layoutX="292.0" layoutY="105.0" prefHeight="283.0" prefWidth="260.0" />
+        <Button fx:id="ExcluirTrator" layoutX="125.0" layoutY="204.0" mnemonicParsing="false" onAction="#ExcluirTrator" text="VENDER(Excluir)">
+
+        </Button>
+        <Label fx:id="qtd" layoutX="465.0" layoutY="85.0" text="Qtd: ">
+
+        </Label>
+        <Label fx:id="labelQtd" layoutX="496.0" layoutY="85.0" text="LabelQtd">
+
+        </Label>
+        <TextField fx:id="textField_ID" layoutX="376.0" layoutY="70.0" prefHeight="30.0" prefWidth="39.0" />
+        <Label layoutX="300.0" layoutY="80.0" text="Pesquisar ID:" />
+        <Label fx:id="labelTextId" layoutX="127.0" layoutY="350.0" text="ID">
+
+        </Label>
+        <Label fx:id="labelTextIdInserted" layoutX="18.0" layoutY="350.0" text="ID Selecionado:">
+
+        </Label>
+        <Button fx:id="btnPesquisaId" layoutX="422.0" layoutY="73.0" mnemonicParsing="false" onAction="#PesquisarTratorID" prefHeight="25.0" prefWidth="39.0" text="Ok" />
+        <Button layoutX="87.0" layoutY="247.0" mnemonicParsing="false" onAction="#AlterarTrator" text="Alterar">
+
+        </Button>
+      <Button layoutX="192.0" layoutY="272.0" mnemonicParsing="false" onAction="#SAIR" text="SAIR" />
+    </children>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+</AnchorPane>
